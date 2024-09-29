@@ -1,0 +1,106 @@
+/* this to style cart place to make it fixe not scroling with the rest of the page and scroling on it is own.*/
+#inCart { 
+    border: 2px solid #000000;
+    width: 35vw;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-image: url("https://assets.codepen.io/12887886/shopping_cart-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    overflow: auto;
+   
+  }
+  
+  .mainBody{
+    background-image: url("https://assets.codepen.io/12887886/bookstore.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    margin-top:2vh;
+  }
+  /*this for the buy button*/
+  button.BuyB{
+    position: fixed;
+    right: 0;
+    top: 0;
+    color:#ffffff;
+    background-color:green;
+    width:10vw;
+    height:10vw;
+    font-size:20px;
+    cursor:pointer;
+  }
+  /*this for the add to cart button*/
+  button.cartt{
+    color:#ffffff;
+    background-color: rgba(0,0,256, 0.5);
+    width:15vw;
+    height:5vw;
+    font-size:2vw;
+    cursor: pointer;
+  }
+  .searchBody{
+    position: fixed;
+  }
+  /*this is for the search bar*/
+  #searchBaBo{
+    width:50vw;
+  }
+  /*this for the search button*/
+  #searchBooks{
+    width:10vw;
+    background: #0b7dda;
+    color:#ffffff;
+    cursor: pointer;
+  }
+  /*put the bookList[] elements in the way I want them */
+  /*for the container*/
+  div.styleItem{
+    border: 2px solid #7e8628 ;
+    width:59vw;
+    padding: 0;
+    margin: 0;
+  }
+  /*for the content description*/
+  .description{
+    position: relative;
+    left:21vw;
+    top:20vh;
+  }
+  .tittle{
+    position: relative;
+    width:30vw;
+    color:rgb(0,256,0,1);
+    margin: 0;
+    padding: 0;
+  }
+  /*for the book image*/
+  .bookImage{
+    position: relative;
+    top:0;
+    width:20vw;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  /* style the price and the additional description*/
+  .price{
+    color:#ffffff;
+    border:1px solid blue;
+    background-color: #0000ff;
+    position: relative;
+    width:10vw;
+    margin: 0;
+    padding: 0;
+  }
+  .addDes{
+    color:#0bc5ef;
+    width: 36vw;
+    position:relative;
+    margin: 0;
+    padding: 0;
+  }
